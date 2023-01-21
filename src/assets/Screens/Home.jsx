@@ -23,7 +23,7 @@ function Learn() {
 const Home = () => {
   return (
     <div className="bg-white w-full md:w-[30rem] flex flex-col  items-center">
-      <div className="w-full p-2">
+      <div className="w-full overflow-hidden ">
         <Carausel />
       </div>
       <h1 className="text-xl font-bold text-lgreen my-5">
