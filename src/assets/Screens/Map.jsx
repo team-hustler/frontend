@@ -1,20 +1,27 @@
-import React from "react";
-import { MapContainer, Marker, Popup, TileLayer, useMap } from "react-leaflet";
+import React, { useEffect } from "react";
+import { MapContainer, TileLayer, Marker } from "react-leaflet";
+// import MarkerClusterGroup from "react-leaflet-markercluster";
+
 const Map = () => {
+  console.log("");
   return (
-    <div className="h-full  w-full">
-      <MapContainer center={[51.505, -0.09]} zoom={13} scrollWheelZoom={false}>
-        <TileLayer
-          attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-          url="http://124.41.236.136/geoserver/gwc/service/tms/1.0.0/GalliMaps%3AGalliMaps@EPSG%3A3857@png?authkey=61f40b24-8281-11ed-b9f29f2"
-        />
-        <Marker position={[51.505, -0.09]}>
-          <Popup>
-            A pretty CSS3 popup. <br /> Easily customizable.
-          </Popup>
-        </Marker>
-      </MapContainer>
-    </div>
+    <MapContainer
+      className="h-screen w-full border-2 border-red-500"
+      center={[51.0, 19.0]}
+      zoom={4}
+      maxZoom={18}
+    >
+      <TileLayer
+        url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+        attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+      />
+
+      {/* <MarkerClusterGroup>
+        <Marker position={[49.8397, 24.0297]} />
+        <Marker position={[52.2297, 21.0122]} />
+        <Marker position={[51.5074, -0.0901]} />
+      </MarkerClusterGroup> */}
+    </MapContainer>
   );
 };
 

@@ -11,6 +11,7 @@ import Accounts from "./assets/Screens/Accounts";
 import Donation from "./assets/Screens/Donation";
 import Home from "./assets/Screens/Home";
 import Map from "./assets/Screens/Map";
+import Profile from "./assets/Screens/Profile";
 function App() {
   return (
     <div className=" bg-gray-200 flex flex-col justify-center items-center">
@@ -20,6 +21,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/volunteer" element={<Form />} />
           <Route path="/donation" element={<Donation />} />
+          <Route path="/profile" element={<Profile />} />
           <Route path="/map" element={<Map />} />
           <Route
             path="/account/*"

@@ -1,7 +1,12 @@
 import React from "react";
+import ProfileTemp from "../Components/ProfileTemp";
 
 const Profile = () => {
-  return <div>Profile</div>;
+  return (
+    <>
+      <ProfileTemp />
+    </>
+  );
 };
 
 export default Profile;

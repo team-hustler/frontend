@@ -31,11 +31,11 @@ function Learn({ image = "https://source.unsplash.com/random/300x300" }) {
   return (
     <div className=" border-gray-100 bg-white border-2 p-4 drop-shadow-3xl rounded-md flex flex-col items-center justify-center mb-8 ">
       <img src={image} className="drop-shadow-lg w-72 " alt="" />
-      <h1 className="text-md my-2 text-black">
-        Learn Proven Techniques and Practices
+      <h1 className="text-md mt-3 text-black">
+        Know about the condition of the street children
       </h1>
       <button className="bg-lgreen text-white px-5 my-2 py-2">
-        Start my Journey
+        Learn More
       </button>
     </div>
   );
@@ -47,7 +47,7 @@ const Home = () => {
         <Carausel />
       </div>
       <h1 className="text-xl font-bold text-white my-5">
-        Technologies for Wellbeing
+        Education for Street Children
       </h1>
 
       <Learn image="https://myrepublica.nagariknetwork.com/uploads/media/street-children-04.jpg?fbclid=IwAR1HhOqaL-ovgcqVxlG56-9exU4ep_zbiYVcH-OpOEBPpKLyGQzMI68zqDY" />
@@ -57,8 +57,8 @@ const Home = () => {
         <div className="flex flex-col bottom-7 relative   items-center justify-center">
           <img src={group} className=" rounded-lg drop-shadow-xl" alt="" />
           <div className="absolute flex flex-col items-center justify-center">
-            <h1 className=" w-3/4 text-center text-2xl font-bold">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            <h1 className=" w-3/4 text-center text-3xl font-bold text-lgreen">
+              Our Contribution towards street children
             </h1>
             <button className=" bg-lgreen text-white px-5 my-3 py-2">
               Learn More

@@ -7,7 +7,8 @@ export const Navbar = () => {
     { id: "3", name: "Home", path: "/" },
     { id: "1", name: "Volunteer", path: "/volunteer" },
     { id: "2", name: "Donation", path: "/donation" },
-    { id: "4", name: "Accounts", path: "/account" },
+    { id: "4", name: "Accounts", path: "/account/students" },
+    { id: "5", name: "Sponser", path: "/profile" },
   ];
   return (
     <div className="w-full md:w-[30rem] flex flex-col bg-center  items-center bg-heroimg-pattern bg-cover sticky top-0  z-40 drop-shadow-lg">
@@ -64,7 +65,7 @@ export const Navbar = () => {
                 </div>
               </NavLink>
             ))}
-            <Link to="/login">
+            <Link to="/">
               <button className=" px-14 py-2  mt-5 mx-auto flex items-center justify-center  rounded-md text-white border-white border-2 hover:border-lgreen hover:bg-lgreen hover:text-white">
                 Sign In
               </button>

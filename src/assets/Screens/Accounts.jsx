@@ -8,7 +8,7 @@ const Accounts = ({ children }) => {
       <div className="w-full overflow-hidden  drop-shadow-lg  ">
         <Carausel />
       </div>
-      <div className="flex justify-around items-center p-5 shadow-xl bg-white w-full font-semibold">
+      <div className="flex justify-around items-center p-5 shadow-xl bg-white text-lgreen w-full font-semibold">
         <Link to="/account/students">Students</Link>
         <Link to="/account/donate">Donate</Link>
         <Link to="/account/sponser">Sponser</Link>

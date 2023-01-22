@@ -18,7 +18,7 @@ const AccountTemp = () => {
               className="border-2 text-lgreen rounded-full ml-2 border-lgreen"
             />
           </td>
-          <td className="px-3 md:px-5 w-full">Aananda GIti</td>
+          <td className="px-3 md:px-5 w-full">Aananda Giri</td>
           <td className="px-5  md:px-8 w-full">Rs.20000</td>
           <td className="pr-2">2079/5/6</td>
         </tr>
@@ -29,7 +29,7 @@ const AccountTemp = () => {
               className="border-2 text-lgreen rounded-full ml-2 border-lgreen"
             />
           </td>
-          <td className="px-3 md:px-5 w-full">Aananda GIti</td>
+          <td className="px-3 md:px-5 w-full">Aananda Giri</td>
           <td className="px-5  md:px-8 w-full">Rs.20000</td>
           <td className="pr-2">2079/5/6</td>
         </tr>
@@ -40,7 +40,7 @@ const AccountTemp = () => {
               className="border-2 text-lgreen rounded-full ml-2 border-lgreen"
             />
           </td>
-          <td className="px-3 md:px-5 w-full">Aananda GIti</td>
+          <td className="px-3 md:px-5 w-full">Aananda Giri</td>
           <td className="px-5  md:px-8 w-full">Rs.20000</td>
           <td className="pr-2">2079/5/6</td>
         </tr>
