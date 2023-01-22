@@ -5,7 +5,7 @@ const Profile = () => {
   return (
     <div className="bg-white w-full md:w-[30rem] flex flex-col  items-center">
       <ProfileTemp />
-      <div className="p-5 bg-white w-full border-b-2">
+      <div className="p-5 bg-white w-full  border-b-2">
         <h1 className="text-lgreen font-bold  text-2xl">Achievements</h1>
       </div>
       <div className="bg-white w-11/12 px-5 py-3 my-2 drop-shadow-lg">
@@ -31,7 +31,7 @@ const Profile = () => {
         </div>
       </div>
       <div className="p-5 bg-white w-full border-b-2 ">
-        <h1 className="text-lgreen font-bold  text-2xl">Progress History</h1>
+        <h1 className="text-lgreen font-bold  text-2xl">Progress Report</h1>
       </div>
       <div className="bg-white py-2 w-11/12 mx-auto drop-shadow-lg my-5">
         <img src={progress} className="p-4 rounded-md" />

@@ -6,18 +6,18 @@ const ProfileTemp = () => {
   return (
     <div className="bg-dgreen  border-b-2 border-gray-200  relative flex flex-col justify-between p-5 w-full md:w-[30rem] items-center  ">
       <img
-        src="https://media.children.org/child-photos/latest/1792475.jpg"
-        className=" border-4 rounded-md drop-shadow-3xl border-white     w-full   "
+        src="https://images.unsplash.com/photo-1529598993581-b025f3f79f9c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
+        className=" border-4 rounded-md drop-shadow-3xl border-white bg-white  object-contain   w-full   "
       />
-      <div className="flex flex-col">
+      <div className="flex   flex-col">
         <button className="" onClick={() => setOpen(!open)}>
           {!open ? (
-            <h1 className="bg-lgreen px-8 text-white py-2 absolute bottom-20 left-8">
+            <h1 className="bg-lgreen px-8 text-white py-2  absolute bottom-20 left-8">
               Details
             </h1>
           ) : (
             <div>
-              <h1 className="text-xl text-white absolute top-7 right-8 text-center z-10  cursor-pointer select-none  font-semibold ">
+              <h1 className="text-xl text-white absolute  top-7 right-8 text-center z-20  cursor-pointer select-none  font-semibold ">
                 X
               </h1>
             </div>
@@ -25,11 +25,11 @@ const ProfileTemp = () => {
         </button>
 
         <div
-          className={`flex fixed inset-0   z-0 md:w-[30rem] mx-auto bg-heroimg-pattern bg-cover overflow-y-hidden transition 
+          className={`flex fixed inset-0   z-10 md:w-[30rem] mx-auto bg-heroimg-pattern bg-cover overflow-y-hidden transition 
     ${open ? "" : "  translate-y-[150%]"}
    ease-in-out duration-700  flex-col   items-center justify-center`}
         >
-          <div className="text-white">
+          <div className="text-white ">
             <h1 className="mb-2">
               <strong>Child Id: </strong>123456
             </h1>

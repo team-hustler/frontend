@@ -4,7 +4,7 @@ import Carausel from "../Components/Carausel";
 
 const Accounts = ({ children }) => {
   return (
-    <div className="bg-dgreen w-full md:w-[30rem] flex flex-col  items-center">
+    <div className="bg-dgreen  w-full md:w-[30rem] flex flex-col  items-center">
       <div className="w-full overflow-hidden  drop-shadow-lg  ">
         <Carausel />
       </div>

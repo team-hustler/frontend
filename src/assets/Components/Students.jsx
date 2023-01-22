@@ -15,31 +15,16 @@ const AccountTemp = () => {
         </thead>
         <tbody className="w-full">
           <tr className="mt-8 mb-2 border-b-2  border-gray-100 shadow-md ">
-            <td className="py-5 px-3">
+            <td className="py-5 md:px-2">
               <AiOutlineUser
                 size={40}
-                className="border-2 text-lgreen rounded-full ml-2 border-lgreen"
+                className="border-2 text-lgreen rounded-full ml-2 mr-5 md:mr-0 border-lgreen"
               />
             </td>
-            <td className=" w-full text-center   px-2">Prashant Soni</td>
-            <td className="px-2 w-full text-center ">5</td>
-            <td className="px-2 w-full text-center">UKG</td>
-            <div className="flex flex-col px-5 justify-center space-y-2 py-5  items-center">
-              <button className="bg-lgreen px-3 py-2 text-white">Donate</button>
-              <button className="bg-lgreen px-3 py-2 text-white">Donate</button>
-            </div>
-          </tr>
-          <tr className="mt-8 mb-2 border-b-2  border-gray-100 shadow-md ">
-            <td className="py-5 px-2">
-              <AiOutlineUser
-                size={40}
-                className="border-2 text-lgreen rounded-full ml-2 border-lgreen"
-              />
-            </td>
-            <td className=" w-full text-center   px-2">Prashant Soni</td>
-            <td className="px-2 w-full text-center ">5</td>
-            <td className="px-2 w-full text-center">UKG</td>
-            <div className="flex flex-col px-5 justify-center space-y-2 py-5  items-center">
+            <td className=" w-full text-center   md:px-2">Prashant Soni</td>
+            <td className="md:px-2 w-full text-center ">5</td>
+            <td className="md:px-2 w-full text-center">UKG</td>
+            <div className="flex flex-col px-2 md:px-5 justify-center space-y-2 py-5  items-center">
               <button className="bg-lgreen px-3 py-2 text-white">Donate</button>
               <button className="bg-lgreen px-3 py-2 text-white">Donate</button>
             </div>

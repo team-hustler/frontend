@@ -7,7 +7,7 @@ export const Navbar = () => {
     { id: "3", name: "Home", path: "/" },
     { id: "1", name: "Volunteer", path: "/volunteer" },
     { id: "2", name: "Donation", path: "/donation" },
-    { id: "4", name: "Accounts", path: "/account" },
+    { id: "4", name: "Accounts", path: "/account/students" },
     { id: "5", name: "Sponser", path: "/profile" },
   ];
   return (
