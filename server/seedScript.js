@@ -30,8 +30,8 @@ let main = async () => {
   };
   const redeemList = async () => {
     let sponsership = await contract.getPastEvents("RedeemList", {
-      fromBlock: 31275790,
-      toBlock: 31276790,
+      fromBlock: 31276000,
+      toBlock: 31277000,
     });
     (await sponsership).map((items) => {
       //console.log("SponsershipList : ", items.returnValues);

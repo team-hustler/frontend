@@ -36,10 +36,14 @@ const AccountTemp = () => {
                 />
               </td>
               <td className="px-2 md:px-3 w-full text-center">
-                {console.log(e)}
+                {e["returnValues"][0].substring(0, 4) + "..."}
               </td>
-              <td className="px-2 md:px-3 w-full text-center  ">Rs.20000</td>
-              <td className="px-2 md:px-3  w-full text-center ">Rs.20000</td>
+              <td className="px-2 md:px-3 w-full text-center  ">
+                {e["returnValues"][1]}
+              </td>
+              <td className="px-2 md:px-3  w-full text-center hover:text-lgreen ">
+                <a href={e["returnValues"][2]}>Link</a>
+              </td>
               <td className="px-2 md:px-3 w-full text-center">2079/5/6</td>
             </tr>
           ))}

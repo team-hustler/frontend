@@ -36,11 +36,11 @@ const AccountTemp = () => {
               <td className="px-3 w-full text-center ">
                 {e["returnValues"][0].substring(0, 4) + "..."}
               </td>
-              <td className="px-3 w-full text-center ">
-                {e["returnValues"][2]}
-              </td>
               <td className="px-3 w-full text-center">
                 {e["returnValues"][1]}
+              </td>
+              <td className="px-3 w-full text-center ">
+                {e["returnValues"][2]}
               </td>
             </tr>
           ))}
