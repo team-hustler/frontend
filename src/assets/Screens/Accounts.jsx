@@ -10,7 +10,7 @@ const Accounts = ({ children }) => {
       </div>
       <div className="flex justify-around items-center p-5 drop-shadow-lg bg-white text-lgreen w-full font-semibold">
         <NavLink
-          className=" px-3 py-2 drop-shadow-md rounded-md"
+          className=" px-3 py-2 drop-shadow-md "
           to="/account/students"
           style={({ isActive }) => {
             return {
@@ -22,7 +22,7 @@ const Accounts = ({ children }) => {
           Students
         </NavLink>
         <NavLink
-          className="bg-white px-3 py-2 drop-shadow-md rounded-md"
+          className="bg-white px-3 py-2 drop-shadow-md "
           to="/account/donate"
           style={({ isActive }) => {
             return {
@@ -34,7 +34,7 @@ const Accounts = ({ children }) => {
           Donate
         </NavLink>
         <NavLink
-          className="bg-white px-3 py-2 drop-shadow-md rounded-md"
+          className="bg-white px-3 py-2 drop-shadow-md "
           to="/account/sponser"
           style={({ isActive }) => {
             return {
@@ -46,7 +46,7 @@ const Accounts = ({ children }) => {
           Sponser
         </NavLink>
         <NavLink
-          className="bg-white px-3 py-2 drop-shadow-md rounded-md"
+          className="bg-white px-3 py-2 drop-shadow-md "
           to="/account/redeem"
           style={({ isActive }) => {
             return {
