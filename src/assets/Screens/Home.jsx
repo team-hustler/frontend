@@ -27,14 +27,10 @@ function Section({ reverse, title, image = children, link = "#" }) {
     </div>
   );
 }
-function Learn() {
+function Learn({ image = "https://source.unsplash.com/random/300x300" }) {
   return (
-    <div className=" border-gray-100 border-2 p-4 shadow-lg rounded-md flex flex-col items-center justify-center mb-8 ">
-      <img
-        src="https://source.unsplash.com/random/300x300"
-        className="drop-shadow-lg "
-        alt=""
-      />
+    <div className=" border-gray-100 bg-white border-2 p-4 drop-shadow-3xl rounded-md flex flex-col items-center justify-center mb-8 ">
+      <img src={image} className="drop-shadow-lg w-72 " alt="" />
       <h1 className="text-md my-2 text-black">
         Learn Proven Techniques and Practices
       </h1>
@@ -46,17 +42,17 @@ function Learn() {
 }
 const Home = () => {
   return (
-    <div className="bg-white w-full md:w-[30rem] flex flex-col  items-center">
-      <div className="w-full overflow-hidden ">
+    <div className="bg-dgreen w-full md:w-[30rem] flex flex-col  items-center">
+      <div className="w-full overflow-hidden  drop-shadow-lg  ">
         <Carausel />
       </div>
-      <h1 className="text-xl font-bold text-lgreen my-5">
+      <h1 className="text-xl font-bold text-white my-5">
         Technologies for Wellbeing
       </h1>
 
-      <Learn />
-      <Learn />
-      <Learn />
+      <Learn image="https://myrepublica.nagariknetwork.com/uploads/media/street-children-04.jpg?fbclid=IwAR1HhOqaL-ovgcqVxlG56-9exU4ep_zbiYVcH-OpOEBPpKLyGQzMI68zqDY" />
+      <Learn image="https://www.thedailystar.net/sites/default/files/feature/images/happy_life.jpg?fbclid=IwAR045P5n2JQOA6kbARiG7kwLRAtuz8P8CDr6OuSpcHl5SvNZ6H5tOwnVYDA" />
+      <Learn image="http://volunteersummernepal.org/wp-content/uploads/2011/12/street-children.jpg?fbclid=IwAR3pMSFWpz-OT3QJAfs8zDoz6dJ0o7-kqL64a0sk-mjxu79hQJ90z9WQdso" />
       <div className="bg-gray-100 relative mt-20 flex flex-col px-11 items-center justify-center">
         <div className="flex flex-col bottom-7 relative   items-center justify-center">
           <img src={group} className=" rounded-lg drop-shadow-xl" alt="" />
