@@ -11,7 +11,7 @@ const Donation = () => {
           reverse && "justify-items-end items-end"
         } `}
       >
-        <img src={image} className="w-2/3 rounded-md" alt="" />
+        <img src={image} className="w-full rounded-md" alt="" />
         <h1 className={`mt-3 text-dgreen ${reverse && "text-right"}`}>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem
           corporis dignissimos tenetur beatae eaque deserunt autem omnis quos.
@@ -28,7 +28,7 @@ const Donation = () => {
   }
   return (
     <div className="bg-white w-full md:w-[30rem] flex flex-col  items-center">
-      <div className="bg-gray-100 relative pt-8 flex flex-col px-11 items-center justify-center">
+      <div className="bg-white relative pt-8 flex flex-col px-11 items-center justify-center">
         <Section reverse={false} title={"Donate Clothes"} />
         <Section reverse={true} title={"Health Camp for Children"} />
         <Section reverse={false} title={"Donate Food"} />

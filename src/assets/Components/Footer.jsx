@@ -12,8 +12,8 @@ const Footer = () => {
           <h1>kuiro@gmail.com</h1>
         </div>
       </div>
-      <div className="absolute bottom-3">
-        <h1 className="text-white text-sm ">Team Hustlers</h1>
+      <div className="absolute bottom-2">
+        <h1 className="text-white text-xs ">Team Hustlers @ Vertex 2023</h1>
       </div>
     </div>
   );

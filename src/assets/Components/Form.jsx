@@ -44,12 +44,12 @@ const Form = () => {
             onChange={(e) => {
               setName(e.target.value);
             }}
-            className=" w-full  mt-4 px-2 py-1  border-b-2 border-gray-200 "
+            className=" w-full outline-none  mt-4 px-2 py-1  border-b-2 border-gray-200 "
             placeholder="Name"
           />
           <input
             type={"text"}
-            className="  w-full mt-4 px-2 py-1  border-b-2 border-gray-200 "
+            className="  w-full outline-none mt-4 px-2 py-1  border-b-2 border-gray-200 "
             placeholder="Age"
             onChange={(e) => {
               setAge(e.target.value);
@@ -57,7 +57,7 @@ const Form = () => {
           />
           <input
             type={"text"}
-            className="  w-full mt-4 px-2 py-1  border-b-2 border-gray-200 "
+            className="  w-full outline-none mt-4 px-2 py-1  border-b-2 border-gray-200 "
             placeholder="Phone"
             onChange={(e) => {
               setPhone(e.target.value);
@@ -65,7 +65,7 @@ const Form = () => {
           />
           <input
             type={"text"}
-            className="  w-full mt-4 px-2 py-1  border-b-2 border-gray-200 "
+            className="  w-full outline-none mt-4 px-2 py-1  border-b-2 border-gray-200 "
             placeholder="Address"
             onChange={(e) => {
               setAddress(e.target.value);
@@ -73,7 +73,7 @@ const Form = () => {
           />
           <input
             type={"text"}
-            className="  w-full mt-4 px-2 py-1  border-b-2 border-gray-200 "
+            className="  w-full outline-none mt-4 px-2 py-1  border-b-2 border-gray-200 "
             placeholder="Email"
             onChange={(e) => {
               setEmail(e.target.value);
@@ -82,17 +82,17 @@ const Form = () => {
 
           <input
             type={"text"}
-            className="  w-full mt-4 px-2 py-1  border-b-2 border-gray-200 "
+            className="  w-full outline-none mt-4 px-2 py-1  border-b-2 border-gray-200 "
             placeholder="Academic Background"
             onChange={(e) => {
               setAcademic(e.target.value);
             }}
           />
-          <div className="flex flex-col  w-full mt-4 px-2 py-1">
+          <div className="flex flex-col  w-full  mt-4 px-2 py-1">
             <h1>Date Prefereed:</h1>
             <input
               type={"date"}
-              className=" w-full border-b-2 border-gray-200 "
+              className=" w-full border-b-2  border-gray-200 "
               onChange={(e) => {
                 setDate(e.target.value);
               }}
@@ -105,13 +105,14 @@ const Form = () => {
               onChange={(e) => {
                 setDuration(e.target.value);
               }}
-              className=" w-full border-b-2 p-2 border-gray-200 "
+              placeholder="1"
+              className=" w-full border-b-2 p-2 outline-none border-gray-200 "
             />
           </div>
           <div className="flex flex-col w-full my-6 px-2 py-1">
             <button
               onClick={handleSubmit}
-              className=" w-full bg-dgreen p-2 text-white"
+              className=" w-full bg-dgreen p-2 py-3 text-white"
             >
               Submit
             </button>
