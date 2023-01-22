@@ -7,9 +7,10 @@ export const Navbar = () => {
     { id: "3", name: "Home", path: "/" },
     { id: "1", name: "Volunteer", path: "/volunteer" },
     { id: "2", name: "Donation", path: "/donation" },
+    { id: "4", name: "Accounts", path: "/account" },
   ];
   return (
-    <div className="w-full md:w-[30rem] flex flex-col  items-center bg-heroimg bg-cover sticky top-0  z-40 drop-shadow-lg">
+    <div className="w-full md:w-[30rem] flex flex-col bg-center  items-center bg-heroimg-pattern bg-cover sticky top-0  z-40 drop-shadow-lg">
       <div className=" border-b-2 border-gray-200  flex justify-between p-5 w-full items-center h-20  ">
         <Link to="/">
           <img src={logo} className="      w-24 object-contain  " />
@@ -41,7 +42,7 @@ export const Navbar = () => {
           </button>
 
           <div
-            className={`flex fixed inset-0 h-screen bg-heroimg bg-cover  overflow-y-hidden transition
+            className={`flex fixed inset-0 h-screen bg-heroimg-pattern bg-cover   overflow-y-hidden transition
         ${open ? "" : "  -translate-y-[150%]"}
        ease-in-out duration-700  flex-col  -z-10 w-full  justify-center`}
           >

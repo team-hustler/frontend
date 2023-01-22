@@ -7,7 +7,9 @@ module.exports = {
         lgreen: "#7852E1",
         dgreen: "#330551",
       },
-      backgroundImage: { heroimg: "url('./src/assets/Images/Kuiro-bg.png')" },
+      backgroundImage: {
+        "heroimg-pattern": 'url("/src/assets/Images/Kuiro-bg.png")',
+      },
       dropShadow: {
         "3xl": "0 10px 20px rgba(255, 255, 255, 0.25)",
         "4xl": [
