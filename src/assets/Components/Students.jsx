@@ -73,10 +73,10 @@ const AccountTemp = () => {
       await connection.confirmTransaction(signature);
     }
   };
-  const handleClick2 = () => {
+  const handleClick1 = () => {
     console.log("2");
   };
-  const handleClick1 = () => {
+  const handleClick2 = () => {
     handleSolana();
     console.log("1");
   };

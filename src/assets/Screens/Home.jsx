@@ -27,13 +27,14 @@ function Section({ reverse, title, image = children, link = "#" }) {
     </div>
   );
 }
-function Learn({ image = "https://source.unsplash.com/random/300x300" }) {
+function Learn({
+  image = "https://source.unsplash.com/random/300x300",
+  title = "Know about the condition of the street children",
+}) {
   return (
-    <div className=" border-gray-100 bg-white border-2 p-4 drop-shadow-3xl rounded-md flex flex-col items-center justify-center mb-8 ">
-      <img src={image} className="drop-shadow-lg w-96 " alt="" />
-      <h1 className="text-md mt-3 text-black">
-        Know about the condition of the street children
-      </h1>
+    <div className=" border-gray-100 bg-white border-2 p-4 w-96 drop-shadow-3xl rounded-md flex flex-col items-center justify-center mb-8 ">
+      <img src={image} className="drop-shadow-lg  " alt="" />
+      <h1 className="text-md mt-3 text-black">{title}</h1>
       <button className="bg-lgreen text-white px-5 my-2 py-2">
         Learn More
       </button>
@@ -50,9 +51,18 @@ const Home = () => {
         Education for Street Children
       </h1>
 
-      <Learn image="https://myrepublica.nagariknetwork.com/uploads/media/street-children-04.jpg?fbclid=IwAR1HhOqaL-ovgcqVxlG56-9exU4ep_zbiYVcH-OpOEBPpKLyGQzMI68zqDY" />
-      <Learn image="https://www.thedailystar.net/sites/default/files/feature/images/happy_life.jpg?fbclid=IwAR045P5n2JQOA6kbARiG7kwLRAtuz8P8CDr6OuSpcHl5SvNZ6H5tOwnVYDA" />
-      <Learn image="http://volunteersummernepal.org/wp-content/uploads/2011/12/street-children.jpg?fbclid=IwAR3pMSFWpz-OT3QJAfs8zDoz6dJ0o7-kqL64a0sk-mjxu79hQJ90z9WQdso" />
+      <Learn
+        title="Kuiro runs offline classes for informal and vocational learnings for the children."
+        image="https://myrepublica.nagariknetwork.com/uploads/media/street-children-04.jpg?fbclid=IwAR1HhOqaL-ovgcqVxlG56-9exU4ep_zbiYVcH-OpOEBPpKLyGQzMI68zqDY"
+      />
+      <Learn
+        title="To make education free for helpless children. Our program runs from donation and youth work"
+        image="https://www.thedailystar.net/sites/default/files/feature/images/happy_life.jpg?fbclid=IwAR045P5n2JQOA6kbARiG7kwLRAtuz8P8CDr6OuSpcHl5SvNZ6H5tOwnVYDA"
+      />
+      <Learn
+        title="Kuiro will also provide mentors on personal level to help these children be comfortable going back to school"
+        image="http://volunteersummernepal.org/wp-content/uploads/2011/12/street-children.jpg?fbclid=IwAR3pMSFWpz-OT3QJAfs8zDoz6dJ0o7-kqL64a0sk-mjxu79hQJ90z9WQdso"
+      />
       <div className="bg-white relative mt-20 flex flex-col px-11 items-center justify-center">
         <div className="flex flex-col bottom-7 relative   items-center justify-center">
           <img src={group} className=" rounded-lg drop-shadow-xl" alt="" />
@@ -73,16 +83,6 @@ const Home = () => {
         />
       </div>
       <div className="mt-14 flex flex-col justify-center items-center">
-        <img
-          src={card}
-          className="w-9/12 drop-shadow-3xl rounded-md mb-5 "
-          alt=""
-        />
-        <img
-          src={card}
-          className="w-9/12 drop-shadow-3xl rounded-md mb-5 "
-          alt=""
-        />
         <img
           src={card}
           className="w-9/12 drop-shadow-3xl rounded-md mb-5 "
